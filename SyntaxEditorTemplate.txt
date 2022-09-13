@@ -1,0 +1,6 @@
+public class SampleClass{
+	public static void Main(string[]args){
+		
+		
+	}
+}
