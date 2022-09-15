@@ -1,6 +1,7 @@
 # Biosero Syntax Editor
 The Biosero Syntax Editor is a text editor control specific to Biosero Base objects with built in, code completion. The application uses intelli sense to detect the word being typed and displays a list of objects with the root contained in them. The purpose of this is to make it easier for customers to use GBG without needing to know every object and function in Green Button Go.
- 
+
+Live Demo in documentation file
 
 Getting Started:
 To use this software, visual studio must have a Telerik license because it uses the Telerik for WPF Syntax Editor for the UI. This also must be run on .NET Core or later. 
