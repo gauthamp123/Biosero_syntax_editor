@@ -5,6 +5,7 @@ Live Demo in documentation file
 
 Getting Started:
 To use this software, visual studio must have a Telerik license because it uses the Telerik for WPF Syntax Editor for the UI. This also must be run on .NET Core or later. 
+
 Dependencies:
 -	Microsoft.CodeAnalysis.CSharp
 -	System.IO.Ports
