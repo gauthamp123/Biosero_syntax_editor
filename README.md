@@ -16,7 +16,7 @@ Assemblies:
 Build and Test:
 The solution can either be built by hitting the Build button or Run WpfApp5 button in Visual Studio.
  
-Testing can be done by setting breakpoints in the different methods which can be categorized. If there is a need to test the parsing or format of the text, breakpoints can be placed in the syntaxEditor_DocumentContentChanged and syntaxEditor_PreviewSyntaxEditorKeyDown methods. If the completion window and process of text replacement needs to be tested it can be done by setting breakpoints in the syntaxEditor_PreviewSyntaxEditorKeyDown, CompletionListWindow_TextInserting, GetWordOnCaret methods. To test the API and assemblies used breakpoints can be set in the GetAvailibleApi method.
+Testing can be done by setting breakpoints in the different methods which can be categorized. If there is a need to test the parsing or format of the text, breakpoints can be placed in the syntaxEditor_DocumentContentChanged and syntaxEditor_PreviewSyntaxEditorKeyDown methods. If the completion window and process of text replacement needs to be tested it can be done by setting breakpoints in the syntaxEditor_PreviewSyntaxEditorKeyDown, CompletionListWindow_TextInserting, GetWordOnCaret methods. To test the API and assemblies used breakpoints can be set in the GetAvailableApi method.
 
 Contribute:
 Developers can add breakpoints and test to see if the completion works for all objects as well as changing the assembly being used. One thing that needs to be improved is that the format of the text must be exact for the completion to work. Making the recognition more generic so mistakes can be made and autocorrected would greatly improve the quality.
